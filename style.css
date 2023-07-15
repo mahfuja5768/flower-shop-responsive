@@ -86,7 +86,7 @@ header {
 .item {
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
-  width: 360px;
+  width: 100%;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -111,7 +111,7 @@ header {
   background-color: #e3ebdb;
 }
 .item img {
-  width: 100%;
+  width: 90%;
 }
 
 /* info-part */
@@ -209,6 +209,9 @@ button {
 /* insta-photos */
 .insta-photos {
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .insta-photos img {
   width: 270px;
