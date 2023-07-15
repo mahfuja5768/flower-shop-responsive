@@ -73,6 +73,22 @@ h1,
 button {
   margin-top: 10px;
 }
+/* Flower gifts */
+.gifts {
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.gifts ul li {
+  list-style: square;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.ideas {
+  padding-bottom: 40px;
+  margin-left: 30px;
+  margin-top: 50px ;
+  margin-bottom: 50px;
+}
 
 }
 
@@ -151,6 +167,16 @@ button {
 h1,
 button {
   margin-top: 10px;
+}
+
+/* Flower gifts */
+.gifts {
+  padding: 0 150px;
+  padding-top: 100px ;
+}
+.ideas {
+  padding-bottom: 100px;
+  margin-left: 20px;
 }
 
 }
