@@ -89,6 +89,44 @@ button {
   margin-top: 50px ;
   margin-bottom: 50px;
 }
+/* insta-photos */
+.insta-photos {
+  flex-direction: column;
+  gap: 25px;
+}
+.insta-photos img {
+  width: 65%;
+}
+
+/* latest-deal-section */
+
+.latest-deal-text {
+  padding: 10px;
+}
+.input-part {
+  
+  width: 70%;
+  margin: 0 auto;
+}
+.input-part button {
+  margin-top: -3px;
+}
+.latest-deal-text input[type="email"] {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+/* footer */
+footer {
+  padding: 40px 0;
+}
+.footer-content,
+.footer-content p {
+  color: white;
+}
+
 
 }
 
@@ -177,6 +215,15 @@ button {
 .ideas {
   padding-bottom: 100px;
   margin-left: 20px;
+}
+/* insta-photos */
+.insta-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.insta-photos img {
+  width: 80%;
+  margin: 10px;
 }
 
 }
